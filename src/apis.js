@@ -5,7 +5,7 @@ export const url_world_time_api =
 export const options_world_time_api = {
   method: "GET",
   headers: {
-    "x-rapidapi-key": "6185a78aa2mshb04ae8991085691p1d093bjsnae8623070f4a",
+    "x-rapidapi-key": import.meta.env.VITE_WORLD_TIME_API_KEY,
     "x-rapidapi-host": "world-time-by-based-api.p.rapidapi.com",
   },
 };
